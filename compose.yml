@@ -15,7 +15,7 @@ services:
       POSTGRES_USER: keycloak
       POSTGRES_PASSWORD: password
     ports:
-      - 5432:5432  
+      - 5432:5432
     volumes:
       - type: tmpfs
         target: /var/lib/postgresql/data
